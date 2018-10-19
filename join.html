@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>software experiment4 project</title>
+    <meta charset="utf-8">
+    <link href="css/join.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div id="topNav">
+        <a id="mainLogo" href="index.html"><img src="img/AvengersLogo.png" alt="avengers' logo" height="48" width="200"></img></a>
+        <a class="topMenu" href = "itemshop.html" >ItemShop</a>
+        <a id="on" class="topMenu" href = "join.html">Join us</a>
+        <a class="topMenu" href ="information.html">Achievement</a>
+        <a class="topMenu" href = "introduction.html">Intro</a>
+    </div>
+
+    <div id="MainJoin">
+      <div id="join1">
+        <img src="img/MarvelStudioLogo.png" alt="MarvelStudioLogo" width="500" height="120" style="margin-top:450px;"></img>
+        <hr class="RedLine">
+
+        <h1 style="text-align: left; padding-left: 200px; background-color:hsl(0, 100%, 30%); color:white;">Privacy</h1>
+
+        <form id="join_form" method="post">
+          <table>
+            <tr>
+              <td>NAME: <input class="blank" type="text" name="name"/></td>
+              <td>AGE: <input class="blank" type="number" name="age" min="1" max="100" step="1"/></td>
+            </tr>
+            <tr>
+              <td>e-mail: <input class="blank" type="email" name="email"/></td>
+              <td>Favorite Color: <input class="blank" type="color" name="color"/></td>
+            </tr>
+
+            <tr>
+              <td>Birth: <input  class="blank" type="date" name="date" /></td>
+              <td>residence: <input  class="blank" type="email" name="email"/></td>
+            </tr>
+          </table>
+
+          Favorite Avengers Member:
+          <br>
+          <input type="checkbox" name="avengers" value="Captain America" checked >Captain America
+          <input type="checkbox" name="avengers" value="IronMan">Iron Man
+          <input type="checkbox" name="avengers" value="Thor">Thor
+          <input type="checkbox" name="avengers" value="Dr.strange">Dr.strange
+          <input type="checkbox" name="avengers" value="Spider Man">Spider Man<br>
+        </form>
+
+        <h1 style="text-align: left; margin-top:100px;padding-left: 200px; background-color:hsl(0, 100%, 30%); color:white;">Notice</h1>
+        <p>1. At the time of the contract, you become a full member of your Avengers and will be under the control of Marvel Studios at that moment.<br><br>
+2. You must not forget that all your actions affect your organization and you must have a mindset to sacrifice for the world.<br><br>
+3. This contract may be terminated at any time by contract free of charge. However, we can not accept responsibility for avoidance or destruction due to unjustifiable reasons.<br><br>
+4. You should not be overwhelmed by personal feelings and always need to be rational.<br><br>
+5. Do not be afraid of death, but keep in mind that there are people behind you.<br><br>
+6. The treatment depends on your achievement. This is a story about wealth as well as honor, and history will remember you.<br><br>
+7. In case of an emergency, Avengers must respond to the gathering.</p>
+      </div>
+
+      <div id="join2">
+        <i>I promise to make a contribution to the peace of the world and will faithfully defend the above seven points.We believe that a path without any danger is the most dangerous way.</i>
+      </div>
+
+      <div id="join3">
+        <i>signature:<span style="text-decoration: underline;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span></i>
+        <img src="img/mainLogo.png" alt="avengers' logo" height="90" width="90"></img>
+      </div>
+    </div>
+
+    <div id="directions">
+      <h1 style="color:hsl(0, 100%, 30%);font-style: italic;font-family: 'Lobster', cursive;">Directions</h1>
+      <div id="map"></div>
+    </div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(33.901786, -118.383927);
+var mapCanvas = document.getElementById("map");
+var mapOptions = {center: myCenter, zoom:17};
+var map = new google.maps.Map(mapCanvas, mapOptions);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYRYC0hLb1aq-xMvqrklHP_vWtnjWFuGs&callback=myMap"></script>
+
+<div id="footer">
+  <hr style="background-color:hsl(0, 100%, 30%);padding:1px 0;">
+  <div class="footer_text">
+    <h1>Sponsor</h1>
+    <p>SAMSUNG</p>
+    <p>GOOGLE</p>
+    <p>NAVER</p>
+    <p>SKKU</p>
+  </div>
+
+  <div class="footer_text">
+    <h1>Contact</h1>
+    <p>052-123-1234</p>
+    <p>tel)010-1234-1234</p>
+    <p>avengers4@gmail.com</p>
+    <p>Do not hesitate!</p>
+  </div>
+
+  <div class="footer_text">
+    <h1>More Info</h1>
+    <p><a class="Link1" href="https://en.wikipedia.org/wiki/Marvel_Studios" style="color: red"><img  alt="Marvel_Studios" src="img/MarvelStudioLogo.png" height="90" width="320"></img></a></p>
+    <p>Avengers 4 is shooting.</p>
+  </div>
+
+  <div class="footer_text">
+    <h1>Welcome to<img alt ="avengers' logo" src="img/AvengersLogo.png" width="100%" height="70%"></img></h1>
+  </div>
+</div>
+
+<hr>
+
+
+
+
+  </body>
+</html>

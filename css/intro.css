@@ -1,0 +1,167 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainLogo{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#topNav{
+  font-weight: 400;
+  z-index: 3;
+  position: fixed;
+  left:0px;
+  top: 0px;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.topMenu{
+  float: right;
+  color: #b0c0c0;
+  text-align: center;
+  text-decoration: none;
+  padding:10px 20px; /*top, bottom / left,right*/
+  margin-right: 5px;
+}
+
+#topNav a:hover {
+  margin-right: 0px;
+  font-weight: 600;
+}
+
+#on {
+  color:red;
+  background-color: rgba(200,200,200,0.35);
+  padding-bottom: 15px;
+}
+
+#coverage{
+  position: absolute;
+  left: 0px;
+  top:0px;
+  width: 1519px;
+  height: 857px;
+  background-image:url("../img/intro.jpg");
+  background-repeat: no-repeat;
+  background-size: 1519px 856px;
+}
+
+#cover_text{
+  background-color: rgba(255, 0, 0, 0.5);
+  padding: 12.1% 35%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 평행이동 */
+}
+
+
+#MarvelStrong{
+  font-weight: 600;
+  color: white;
+  text-decoration: underline;
+}
+
+.white_p{
+  color: rgba(200, 200, 200, 0.8);
+  font-size: 40px;
+}
+
+#intro1{
+  background-color: hsl(0, 100%, 30%);
+  padding: 5% 5%;
+  position: absolute;
+  left: 0px;
+  top:857px;
+  width: 1330px;
+  height: 1400px;
+  border: 20px solid white;
+}
+
+#title_h1{
+  font-size: 75px;
+}
+
+.BlueLine{
+  width: 100%;
+  background-color: white;
+  padding: 1px 0px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+#intro1 h1{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.title_h2{
+  color: rgba(255, 255, 255, 1.1);
+  text-align: center;
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.typical_table table, tr, td{
+  font-size: 25px;
+  border: white solid 3px;
+  font-weight: normal;
+  padding: 7px 7px;
+}
+
+.typical_table{
+  color: white;
+  border-collapse: collapse;
+}
+
+#intro1 p{
+  color: white;
+  font-size: 20px;
+}
+
+#ForGra{
+  position: absolute;
+  left: 0px;
+  top:2460px;
+  width: 1523px;
+  height: 300px;
+  background: linear-gradient(to bottom, white 0%, hsl(0, 100%, 30%) 45%);
+}
+
+#intro2{
+  color: hsl(0, 100%, 30%);
+  padding: 5% 5%;
+  position: absolute;
+  left: 0px;
+  top:2760px;
+  width: 1330px;
+  height: 2270px;
+  border: 20px solid hsl(0, 100%, 30%);
+}
+
+img.profile{
+  margin-right: 40px;
+  float: left;
+  border: 10px solid hsl(0, 100%, 30%);
+}
+
+h3.profile-title{
+  color:hsl(0, 100%, 30%);
+  font-size: 30px;
+}
+
+li{
+  margin: 10px 0px;
+}
+
+.RedLine{
+  background-color: hsl(0, 100%, 30%);
+  height: 5px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
